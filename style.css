@@ -1,0 +1,40 @@
+body{
+background-image: url(home\ screen.png);
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-size: cover;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;   
+    z-index: 110;
+    background-color: rgb(12, 2, 2);
+}
+.apps table img{
+       width: 3.5vw;
+       height: 7vh;
+       padding-top: 50px;
+       padding-left: 6px;
+       cursor: pointer;
+}
+.startmenu{
+    position: absolute;
+    bottom: -657px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+
+}
+.startmenu img{
+    width: 50vw;
+    height: 80vh;
+    border-radius: 8px;
+}
+.colour{
+    color: aliceblue;
+}
